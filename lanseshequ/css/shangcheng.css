@@ -1,0 +1,205 @@
+body {
+ 	width: 100%;
+ 	height: 100%;
+ 	margin:0  0;  
+ 	background-color: #ededed;   
+}
+.toubu{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 38px;
+	background-color:#00cac9;
+	text-align: center;
+	z-index: 10001;
+}
+.toubu .biaozhi{
+	display: inline-block;
+	float: left;
+	width: 15px;
+	height: 15px;
+	border: 3px solid#fff;
+	border-top: none;
+	border-right:none;
+	transform: rotate(45deg);
+	position: fixed;
+	top: 10px;
+	left: 10px;
+	cursor: pointer;
+	z-index: 10000;
+}
+.toubu span{
+	color: #fff;
+	font-weight: 900;
+	font-size: 20px;
+	line-height: 38px;
+}
+.toububiaoqian{
+	position: absolute;
+	top: 40px;
+	left: 0px;
+	width: 100%;
+	height: 30px;
+	background-color:#fff;
+	position: relative;
+}
+.toububiaoqian .sousuo{
+	width: 30px;
+	height: 30px;
+	margin: 0 0;
+	position: absolute;
+	top:0px;
+	right:0px;
+}
+.toububiaoqian .left{
+	position: absolute;
+	top:8px;
+	left: 5px;
+	cursor: pointer;
+}
+.toububiaoqian .right{
+	position: absolute;
+	top:8px;
+	right: 50px;
+	cursor: pointer;
+}
+.toububiaoqianneirong{
+	width: 300px;
+	font-size: 15px;
+	position: absolute;
+	top:5px;
+	left: 15px;
+	cursor: pointer;
+}
+.toububiaoqianneirong span{
+	color: #ededed;
+	margin: 0px 20px;
+	cursor: pointer;
+}
+.shangcheng-neirong{
+	width: 100%;
+	margin:50px 0px;
+}
+.shangcheng-neirong ul{
+	padding: 0  0;
+}
+.shangcheng-neirong ul li{
+	width: 90%;
+	margin:20px  5%;
+	list-style-type: none;
+	border:1px solid#fff;
+	background-color: #fff;
+	z-index: 10000;
+}
+.shangcheng-neirong ul li img{
+	width: 100%;
+	height: 135px;
+	margin: 0   0;
+}
+.shangcheng-neirong ul .mai-1 {
+	position: relative;
+}
+.shangcheng-neirong ul .mai-1  span{
+	font-size: 15px;
+	color: #fff;
+	margin: 5px 0;
+}
+.shangcheng-neirong ul .mai-1 .biaoti{
+	color: #333;
+	font-size: 15px;
+	font-weight: 900;
+}
+.shangcheng-neirong ul .mai-1 .buy-img{
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	right: 70px;
+	top: 142px;
+}
+.shangcheng-neirong ul .mai-1  .yuexiaoliang{
+	color:#c1c0c0;
+	font-size: 15px;
+	position: absolute;
+	right: 25px;
+}
+.shangcheng-neirong ul .mai-1  .yuexiaoliang-shu{
+	color:#c1c0c0;
+	font-size: 15px;
+	position: absolute;
+	right: 0px;
+}
+.shangcheng-neirong ul .mai-1 .jiage{
+	width: 100%;
+}
+.shangcheng-neirong ul .mai-1 .biaoti-mingzi{
+	width: 100%;
+}
+.shangcheng-neirong ul .mai-1 .difang{
+	width: 100%;
+}
+.shangcheng-neirong ul .mai-1 .jiage .xianjia{
+	color:#c1c0c0;
+	font-size: 15px;
+}
+.shangcheng-neirong ul .mai-1 .jiage .xianjia-shuzi{
+	color:red;
+	font-size: 15px;
+	font-weight: 900;
+}
+.shangcheng-neirong ul .mai-1 .jiage .yuanjia{
+	color:#c1c0c0;
+	font-size: 15px;
+	font-weight: 900;
+}
+.shangcheng-neirong ul .mai-1 .difang .chandi{
+	color:#c1c0c0;
+	font-size: 15px;
+}
+.shangcheng-neirong ul .mai-1 .difang .dizhi{
+	color:#00cac9;
+	font-size: 15px;
+}
+.dibu{
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	height: 38px;
+	background-color:#00cac9;
+	z-index: 10001;
+}
+.dibu img{
+	width:25px;
+	height: 25px;
+	margin-top: 5px;
+}
+.dibu .home-div{
+	width: 25%;
+	text-align: center;
+	float: left;
+}
+.dibu .shop-div{
+	width: 25%;
+	text-align: center;
+	float: left;
+}
+.dibu .hotel-div{
+	width: 25%;
+	text-align: center;
+	float: left;
+}
+.dibu .person-div{
+	width: 25%;
+	text-align: center;
+	float: left;
+}
+.home-span{
+	background-color: #fff;
+	width: 25%;
+	height: 5px;
+	position: fixed;
+	bottom: 0px;
+	left: 25%;
+	z-index: 10002;
+}

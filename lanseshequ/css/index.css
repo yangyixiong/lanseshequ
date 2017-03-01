@@ -1,0 +1,253 @@
+body {
+ 	width: 100%;
+ 	height: 100%;
+ 	margin:0  0;  
+ 	background-color: #ededed;   
+}
+.toubu{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 38px;
+	background-color:#00cac9;
+	z-index: 1001;
+	text-align: center;
+}
+.toubu .biaozhi{
+	display: inline-block;
+	float: left;
+	width: 15px;
+	height: 15px;
+	border: 3px solid#fff;
+	border-top: none;
+	border-right:none;
+	transform: rotate(45deg);
+	position: fixed;
+	top: 10px;
+	left: 10px;
+	cursor: pointer;
+}
+.toubu span{
+	color: #fff;
+	font-weight: 900;
+	font-size: 20px;
+	line-height: 38px;
+}
+.neirong {
+	width: 100%;
+	margin:50px 0px;
+}
+.neirong ul{
+	padding: 0 0;
+}
+.neirong ul li{
+	width: 90%;
+	margin:20px  5%;
+	z-index: 1000;
+	list-style-type: none;
+	border:1px solid#fff;
+	background-color: #fff;
+}
+.neirong ul li img{
+	width: 100%;
+	height: 135px;
+}
+.neirong ul .sq_2-li{
+	position: relative;
+}
+.neirong ul .sq_2-li span{
+	font-size: 15px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	color: #fff;
+}
+.neirong ul .sq_3-li{
+	position: relative;
+}
+.neirong ul .sq_3-li .sq_3-li-div{
+	width: 43%;
+	height:24px;
+	background: #00cac9;
+	position: absolute;
+	top: 10px;
+	left: -5px;
+}
+.neirong ul .sq_3-li .sq_3-li-div span{
+	font-size: 15px;
+	color: #fff;
+	margin: 5px 0;
+}
+.neirong ul .sq_3-li .sq_3-li-div2 .biaoti{
+	display: inline-block;
+	color: #333;
+	font-size: 15px;
+	font-weight: 900;
+}
+.neirong ul .sq_3-li .sq_3-li-div2 .renshu{
+	display: inline-block;
+	color:#a7f1a7;
+	font-size: 15px;
+	position: absolute;
+	right: 60px;
+}
+.neirong ul .sq_3-li .sq_3-li-div2 .renshu-1{
+	display: inline-block;
+	color:#c1c0c0;
+	font-size: 15px;
+	position: absolute;
+	right: 0px;
+}
+.neirong ul .sq_3-li .sq_3-li-div3 img{
+	width: 15px;
+	height: 15px;
+}
+.neirong ul .sq_3-li .sq_3-li-div3 .dizhi{
+	font-size: 15px;
+	display: inline-block;
+	color:#4e4d4d;
+	line-height: 20px;
+}
+.neirong ul .sq_3-li .sq_3-li-div4 img{
+	width: 15px;
+	height: 15px;
+}
+.neirong ul .sq_3-li .sq_3-li-div4 .shijian{
+	font-size: 15px;
+	display: inline-block;
+	color:#4e4d4d;
+	line-height: 20px;
+}
+
+.neirong ul .sq_4-li{
+	position: relative;
+}
+.neirong ul .sq_4-li .sq_4-li-div{
+	width: 43%;
+	height:24px;
+	background: #00cac9;
+	position: absolute;
+	top: 10px;
+	left: -5px;
+}
+.neirong ul .sq_4-li .sq_4-li-div span{
+	font-size: 15px;
+	color: #fff;
+	margin: 5px 0;
+}
+.neirong ul .sq_4-li .sq_4-li-div2 .biaoti{
+	display: inline-block;
+	color: #333;
+	font-size: 15px;
+	font-weight: 900;
+}
+.neirong ul .sq_4-li .sq_4-li-div2 .renshu{
+	display: inline-block;
+	color:#a7f1a7;
+	font-size: 15px;
+	position: absolute;
+	right: 60px;
+}
+.neirong ul .sq_4-li .sq_4-li-div2 .renshu-1{
+	display: inline-block;
+	color:#c1c0c0;
+	font-size: 15px;
+	position: absolute;
+	right: 0px;
+}
+.neirong ul .sq_4-li .sq_4-li-div3 img{
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+}
+.neirong ul .sq_4-li .sq_4-li-div3 .dizhi{
+	font-size: 15px;
+	display: inline-block;
+	color:#4e4d4d;
+	line-height: 20px;
+}
+.neirong ul .sq_4-li .sq_4-li-div4 img{
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+}
+.neirong ul .sq_4-li .sq_4-li-div4 .shijian{
+	display: inline-block;
+	font-size: 15px;
+	color:#4e4d4d;
+	line-height: 20px;
+}
+.gouwuche img{
+	position: fixed;
+	bottom: 20px;
+	right: 10px;
+	width: 50px;
+	height: 50px;
+	z-index: 1002;
+	cursor: pointer;
+}
+
+
+.dibu{
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	height: 38px;
+	background-color:#00cac9;
+	z-index: 1001;
+}
+.dibu img{
+	width:25px;
+	height: 25px;
+	margin-top: 5px;
+}
+.dibu .home-div{
+	width: 25%;
+	text-align: center;
+	float: left;
+}
+.dibu .shop-div{
+	width: 25%;
+	text-align: center;
+	float: left;
+}
+.dibu .hotel-div{
+	width: 25%;
+	text-align: center;
+	float: left;
+}
+.dibu .person-div{
+	width: 25%;
+	text-align: center;
+	float: left;
+}
+.home-span{
+	background-color: #fff;
+	width: 25%;
+	height: 5px;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	z-index: 1002;
+}
+
+
+/*@media screen and (max-width: 300px) {
+    body {
+        
+    }
+
+}*/
+/*@media screen and (max-width: 900px) {
+    body {
+        
+    }
+}
+@media screen and (max-width: 1400px) {
+    body {
+        
+    }
+}
+*/

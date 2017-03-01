@@ -1,0 +1,3 @@
+$('.sousuo').click(function(event) {
+	
+});
