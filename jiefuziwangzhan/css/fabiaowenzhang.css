@@ -1,0 +1,114 @@
+body{
+	margin:0 0;
+}
+.jiefuzi-fabiaowenzhang{
+	width: 100%;
+	background-color:#fff;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 10001;
+}
+.jiefuzi-fabiaowenzhang-toubu{
+	background-color: #7F4A88;
+}
+.jiefuzi-fabiaowenzhang-toubu img{
+	margin:20px 20px;
+}
+.jiefuzi-fabiaowenzhang-toubu a{
+	color: #fff;
+	text-decoration: none;	
+}
+.jiefuzi-fabiaowenzhang-toubu .denglu{
+   	position: absolute;
+   	top: 27px;
+   	right: 240px;
+}
+.jiefuzi-fabiaowenzhang-toubu .zhuce{
+   	position: absolute;
+   	top: 27px;
+   	right: 170px;
+}
+.jiefuzi-fabiaowenzhang-toubu  .tupian{
+	position: absolute;
+   	top: 10px;
+   	right: 50px;
+}
+.neirong{
+	width: 70%;
+	margin-top: 120px;
+	margin-left: 15%;
+	border: 2px solid#FFFFFF;
+	box-shadow:0 0 2px #000000;
+}
+.neirong-img{
+	width: 100%;
+	height: 300px;
+	background-color:#f7c8ff; 
+	position: relative;
+}
+.neirong-img-camera{
+	width: 55px;
+	height: 47px;
+	position: absolute;
+	top: 100px;
+	left: 450px;
+}
+
+.neirong-biaoti .neirong-hengang{
+	margin-left: 10%;
+	width: 80%;
+	height: 2px;
+	background-color: #BFA4C3; 
+}
+.neirong-kuang{
+	width: 80%;
+	height: 400px;
+	border:2px solid #BFA4C3; 
+	margin-left: 10%;
+	margin-top: 20px;
+}
+.neirong-biaoti-zi{
+	display: inline-block;
+	margin-left: 10%;
+	font-size: 18px;
+	color:#6C6F71;
+	padding: 10px;
+}
+.zhanghaoneir .zhanghaoneir-touxiang{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin:0 0;
+   	position: absolute;
+   	top: 15px;
+   	right: 240px;
+}
+.zhanghaoneir span{
+	position: absolute;
+   	top: 15px;
+   	right: 180px;
+	line-height: 50px;
+}
+.zhanghaoneir .zhanghaoneir-shezhzi{
+	margin:0 0;
+	position: absolute;
+   	top: 25px;
+   	right: 145px;
+}
+.zhanghushezhi-xiaogongneng{
+	width: 120px;
+	height: 135px;
+	background: url(../img/baiban.png);
+	position: fixed;
+	top: 43px;
+	right: 133px;
+	display: none;
+	z-index: 10002;
+}
+.zhanghushezhi-xiaogongneng ul li{
+	display: inline-block;
+	margin-bottom: 20px;
+	margin-left: -20px;
+	cursor: pointer;
+}

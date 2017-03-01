@@ -1,0 +1,104 @@
+body{
+	margin:0 0;
+}
+.jiefuzizhuce{
+	width: 100%;
+	height: 100%;
+	background: url(../img/index-beijing.png);
+ 	background-repeat:no-repeat;
+	background-size: 100% 100%;
+}
+.jiefuzizhuce-toubu{
+	background-color: #7F4A88;
+	opacity: 0.5;
+}
+.jiefuzizhuce-toubu img{
+	margin:20px 20px;
+}
+.zhuyaoneirong{
+	width: 30%;
+	height:  400px;
+	margin:150px 35%;
+	background-color: #000;
+	opacity: 0.5;
+	border-radius: 10px;
+	position: relative;
+}
+.zhuyaoneirong h1{
+	color: #fff;
+	font-size: 15px;
+	position: absolute;
+	top: 20px;
+	left: 35%;
+	cursor: pointer;
+}
+.zhuyaoneirong h2{
+	color: #7F4A88;
+	font-size: 15px;
+	position: absolute;
+	top: 18px;
+	right:  35%;
+}
+.zhuyaoneirong .hengang{
+	display: inline-block;
+	width: 15%;
+	height: 2px;
+	background-color: #7F4A88; 
+	position: absolute;
+	top: 50px;
+	right: 31%;
+}
+.zhuyaoneirong input{
+	margin:0px 15%;
+	opacity: 0.5;
+	border: 1px solid #7F4A88; 
+	border-radius: 5px;
+	width: 70%;
+	height: 40px;
+}
+.zhuyaoneirong .zhuce-shoujihao{
+	position: absolute;
+	top: 85px;
+}
+.zhuyaoneirong .zhuce-yanzhengma{
+	width: 40%;
+	position: absolute;
+	top: 135px;
+}
+.zhuyaoneirong .zhuce-mima{
+	position: absolute;
+	top: 185px;
+}
+.zhuyaoneirong .zhuce-chongfumima{
+	position: absolute;
+	top: 235px;
+}
+.zhucesjyzm{
+	cursor: pointer;
+	width: 25%;
+	height: 42px;
+	position: absolute;
+	top: 135px;
+	left: 60%;
+	background: url(../img/yanzhengma.png);
+}
+.zhuce-button{
+	width: 70%;
+	height: 40px;
+	background-color: #222629;
+	color: #fff;
+	font-weight: 900;
+	line-height: 40px;
+	text-align: center;
+	position: absolute;
+	top: 295px;
+	left: 15%;
+	cursor: pointer;
+}
+.zhuce-tiaozhuan{
+	text-decoration: none;
+	color: #fff;
+	position: absolute;
+	top: 340px;
+	left: 32%;
+}

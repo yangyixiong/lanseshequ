@@ -1,0 +1,160 @@
+body{
+	margin:0 0;
+}
+.jiefuzi-wenzhangxiangqing{
+	width: 100%;
+	background-color:#fff;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+}
+.jiefuzi-wenzhangxiangqing-toubu{
+	background-color: #7F4A88;
+}
+.jiefuzi-wenzhangxiangqing-toubu img{
+	margin:20px 20px;
+}
+.jiefuzi-wenzhangxiangqing-toubu a{
+	color: #fff;
+	text-decoration: none;	
+}
+.jiefuzi-wenzhangxiangqing-toubu .denglu{
+   	position: absolute;
+   	top: 27px;
+   	right: 240px;
+}
+.jiefuzi-wenzhangxiangqing-toubu .zhuce{
+   	position: absolute;
+   	top: 27px;
+   	right: 170px;
+}
+.jiefuzi-wenzhangxiangqing-toubu  .tupian{
+	position: absolute;
+   	top: 10px;
+   	right: 50px;
+}
+.wenzhangxiangqing-neirong{
+	width: 70%;
+	border: 2px solid#ffffff;
+	margin:120px 200px; 
+}
+.wenzhangxiangqing-neirong span{
+	margin-right: 40px;
+}
+.neirong-touxiang{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: #D8D8D8;
+	margin-left: -40px;
+}
+.neirong-wenzhang-tupian{
+	width: 100%;
+	height: 200px;
+	background-color:#D8D8D8;
+	margin-bottom: 20px; 
+}
+.neirong-hengang{
+	display: inline-block;
+	width: 100%;
+	height: 2px;
+	background-color: #ededed;
+
+}
+.wenzhangdianping-neirong{
+	width: 100%;
+	height: 100px;
+	border-radius: 5px;
+	background-color:#D8D8D8;
+}
+.wenzhangdianping .wenzhangdianping-span{
+	display: inline-block;
+	margin: 20px 0px;
+}
+.wenzhangdianping-tupian{
+	width: 88px;
+	height: 36px;
+	cursor: pointer;
+	float: right;
+	background: url(../img/tijiao.png);
+	margin: 20px 0px;
+}
+.zuijinpinglun-span{
+	display: inline-block;
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+.zuijinpinglun-hengang{
+	display: inline-block;
+	width: 100%;
+	height: 2px;
+	background-color: #ededed;
+}
+.zuijinpinglun ul li{
+	list-style-type: none;
+	line-height: 30px;
+	float: left;
+}
+.neirong-hang ul li {
+	list-style-type: none;
+	line-height: 30px;
+	float: left;
+}
+.neirong-hang{
+	width: 100%;
+	height: 30px;
+	margin-bottom: 20px;
+}
+.zhanghaoneir .zhanghaoneir-touxiang{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin:0 0;
+   	position: absolute;
+   	top: 15px;
+   	right: 240px;
+}
+.zhanghaoneir span{
+	position: absolute;
+   	top: 15px;
+   	right: 180px;
+	line-height: 50px;
+}
+.zhanghaoneir .zhanghaoneir-shezhzi{
+	margin:0 0;
+	position: absolute;
+   	top: 25px;
+   	right: 145px;
+}
+.zhanghushezhi-xiaogongneng{
+	width: 120px;
+	height: 135px;
+	background: url(../img/baiban.png);
+	position: fixed;
+	top: 43px;
+	right: 133px;
+	display: none;
+	z-index: 10002;
+}
+.zhanghushezhi-xiaogongneng ul li{
+	display: inline-block;
+	margin-bottom: 20px;
+	margin-left: -20px;
+	cursor: pointer;
+}
+.weixin-saoyisao{
+	cursor: pointer;
+}
+.zuijinpinglun{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.zuijinpinglun-dashang{
+	display: inline-block;
+	margin:20px 0;
+	position: absolute;
+	top: 40px;
+	left: 40px;
+}

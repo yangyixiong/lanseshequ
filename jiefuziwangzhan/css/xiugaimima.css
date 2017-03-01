@@ -1,0 +1,93 @@
+body{
+	margin:0 0;
+}
+.jiefuzixiugaimima{
+	width: 100%;
+	height: 100%;
+	background-color:#fff;
+	position: relative;
+}
+.jiefuzixiugaimima-toubu{
+	background-color: #7F4A88;
+}
+.jiefuzixiugaimima-toubu img{
+	margin:20px 20px;
+}
+.zhuyaoneirong{
+	width: 30%;
+	height:  300px;
+	margin:150px 35%;
+	position: relative;
+	background: #FFFFFF;
+	border: 1px solid #F3EEF4;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.12), 0 0 6px 0 rgba(0,0,0,0.05);
+	border-radius: 15px;
+}
+.zhuyaoneirong h1{
+	color: #7F4A88;
+	font-size: 15px;
+	position: absolute;
+	top: 20px;
+	left: 40%;
+	cursor: pointer;
+}
+.zhuyaoneirong input{
+	margin:0px 15%;
+	border: 1px solid #7F4A88; 
+	border-radius: 5px;
+	width: 70%;
+	height: 40px;
+}
+.zhuyaoneirong .jiefuzixiugaimima-sjh{
+	position: absolute;
+	top: 85px;
+}
+.zhuyaoneirong .jiefuzixiugaimima-yzm{
+	width: 40%;
+	position: absolute;
+	top: 145px;
+}
+.yzm{
+	cursor: pointer;
+	width: 25%;
+	height: 42px;
+	position: absolute;
+	top: 145px;
+	left: 60%;
+	background: url(../img/yanzhengma.png);
+}
+.jiefuzixiugaimima-button{
+	width: 70%;
+	height: 40px;
+	background-color: #636b71;
+	color: #fff;
+	font-weight: 900;
+	line-height: 40px;
+	text-align: center;
+	position: absolute;
+	top: 220px;
+	left: 15%;
+	cursor: pointer;
+}
+.jiefuzixiugaimima-zhanghushezhi{
+	font-size: 20px;
+	text-decoration: none;
+	color: #333;
+}
+.jiefuzixiugaimima-xiugaimima{
+	text-decoration: none;
+	color: #333;
+}
+.jiefuzixiugaimima-tou{
+	position: absolute;
+ 	top:25%; 
+ 	left:30%;
+}
+.hengang{
+	width: 600px;
+	height: 2px;
+	background-color: #7F4A88;
+	position: absolute;
+ 	top:130%; 
+ 	left:-10%;
+}

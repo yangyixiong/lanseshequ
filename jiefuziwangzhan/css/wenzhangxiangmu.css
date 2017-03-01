@@ -1,0 +1,163 @@
+body{
+	margin:0 0;
+}
+.jiefuzi-wenzhangxiangmu{
+	width: 100%;
+	background-color:#fff;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 10001;
+}
+.jiefuzi-wenzhangxiangmu-toubu{
+	background-color: #7F4A88;
+}
+.jiefuzi-wenzhangxiangmu-toubu img{
+	margin:20px 20px;
+}
+.jiefuzi-wenzhangxiangmu-toubu a{
+	color: #fff;
+	text-decoration: none;	
+}
+.jiefuzi-wenzhangxiangmu-toubu .denglu{
+   	position: absolute;
+   	top: 27px;
+   	right: 240px;
+}
+.jiefuzi-wenzhangxiangmu-toubu .zhuce{
+   	position: absolute;
+   	top: 27px;
+   	right: 170px;
+}
+.jiefuzi-wenzhangxiangmu-toubu  .tupian{
+	position: absolute;
+   	top: 10px;
+   	right: 50px;
+}
+.fabiaode-wenzhang{
+	width: 100%;
+	height: 200px;
+	border: 2px solid#ffffff;
+	margin-bottom: 20px;
+}
+.wenzhangxiangmu-neirong{
+	width: 70%;
+	margin:110px 150px;
+	z-index: 10000;  
+}
+.fabiaode-wenzhangtupian{
+	float: left;
+	width: 40%;
+	height: 100%;
+	background-color: red;
+}
+.fabiaode-wenzhangneirong{
+	float: right;
+	width: 60%;
+	height: 100%;
+	background-color: blue;
+	position: relative;
+}
+.fabiaode-wenzhangneirong span{
+	display: inline-block;
+}
+
+.fabiaode-wenzhangneirong .fabiaodeneirong-span1{
+	position: absolute;
+    top:  15px;
+    left: 20px;
+}
+.fabiaode-wenzhangneirong .fabiaodeneirong-span2{
+	position: absolute;
+    top: 65px;
+    left:20px; 
+}
+.fabiaode-xia .xiaotouxiang{
+	background-color:#ededed; 
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	position: absolute;
+    top: 165px;
+    left:10px;
+}
+.fabiaode-xia .kan{
+	position: absolute;
+    top: 177px;
+    right:55px; 
+}
+.fabiaode-xia .zan{
+	position: absolute;
+    top: 175px;
+    right:130px; 
+}
+.zan-span{
+	position: absolute;
+    top: 172px;
+    right:80px; 
+}
+.kan-span{
+	position: absolute;
+    top: 172px;
+    right:5px; 
+}
+.zhanghushezhi-xiaogongneng{
+	width: 120px;
+	height: 135px;
+	background: url(../img/baiban.png);
+	position: fixed;
+	top: 43px;
+	right: 133px;
+	display: none;
+	z-index: 10002;
+}
+.zhanghushezhi-xiaogongneng ul li{
+	display: inline-block;
+	margin-bottom: 20px;
+	margin-left: -20px;
+	cursor: pointer;
+}
+.fanhuidingbu{
+	width: 45px;
+	height: 45px;
+	background: url(../img/back_top.png);
+	cursor: pointer;
+	position: fixed;
+	bottom: 70px;
+	right: 100px;
+}
+.mingzi-span{
+	position: absolute;
+    top: 172px;
+    right:465px;
+}
+.shijian-span{
+	position: absolute;
+    top: 172px;
+    right:415px;
+}
+
+.zhanghaoneir .zhanghaoneir-touxiang{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin:0 0;
+   	position: absolute;
+   	top: 15px;
+   	right: 240px;
+}
+.zhanghaoneir span{
+	position: absolute;
+   	top: 15px;
+   	right: 180px;
+	line-height: 50px;
+}
+.zhanghaoneir .zhanghaoneir-shezhzi{
+	margin:0 0;
+	position: absolute;
+   	top: 25px;
+   	right: 145px;
+}
+.wenzhangxiangmu-neirong a{
+	color: #333;
+}

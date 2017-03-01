@@ -1,0 +1,181 @@
+body{
+	margin:0 0;
+}
+.jiefuzizhanghushezhi{
+	width: 100%;
+	height: 100%;
+	background-color:#fff;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 10001;
+}
+.jiefuzizhanghushezhi-toubu{
+	background-color: #7F4A88;
+}
+.jiefuzizhanghushezhi-toubu img{
+	margin:20px 20px;
+}
+.jiefuzizhanghushezhi-toubu a{
+	color: #fff;
+	text-decoration: none;	
+}
+.jiefuzizhanghushezhi-toubu .denglu{
+   	position: absolute;
+   	top: 27px;
+   	right: 240px;
+}
+.jiefuzizhanghushezhi-toubu .zhuce{
+   	position: absolute;
+   	top: 27px;
+   	right: 170px;
+}
+.jiefuzizhanghushezhi-toubu  .tupian{
+	position: absolute;
+   	top: 10px;
+   	right: 50px;
+}
+.zhanghushezhi-a{
+	color: #333;
+	text-decoration: none;
+	position: absolute;
+	top: 120px;
+	left: 300px;
+}
+.hengang{
+	width: 55%;
+	height: 2px;
+	background-color: #7F4A88;
+	position: absolute;
+	top: 155px;
+	left: 285px;
+}
+.jiefuzidanzi{
+	width: 50%;
+	height:  400px;
+	margin:150px 23%;
+	position: relative;
+	background: #FFFFFF;
+	border: 1px solid #F3EEF4;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.12), 0 0 6px 0 rgba(0,0,0,0.05);
+	border-radius: 15px;
+}
+.jiefuzidanzi ul li{
+	line-height: 50px;
+	list-style-type: none;
+	height: 50px;
+}
+.zhanghushezhi-touxiang{
+	display: inline-block;
+   	width:50px;
+   	height: 50px;
+   	border-radius:  50%;
+   	background-color: #ededed;
+   	cursor: pointer;
+}
+.zhanghushezhi-touxiang-zi{
+	display: inline-block;
+	line-height: 50px;
+	float: left;	
+}
+.zhanghaoneir .zhanghaoneir-touxiang{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin:0 0;
+   	position: absolute;
+   	top: 15px;
+   	right: 240px;
+}
+.zhanghaoneir span{
+	position: absolute;
+   	top: 15px;
+   	right: 180px;
+	line-height: 50px;
+}
+.zhanghaoneir .zhanghaoneir-shezhzi{
+	margin:0 0;
+	position: absolute;
+   	top: 25px;
+   	right: 145px;
+}
+.zhanghushezhi-xiaogongneng{
+	width: 120px;
+	height: 135px;
+	background: url(../img/baiban.png);
+	position: fixed;
+	top: 43px;
+	right: 133px;
+	display: none;
+	z-index: 10002;
+}
+.zhanghushezhi-xiaogongneng ul li{
+	display: inline-block;
+	margin-bottom: 20px;
+	margin-left: -20px;
+	cursor: pointer;
+}
+.jiefuzidanzi{
+	position: relative;
+}
+.jiefuzidanzi .zhanghushezhi-xingbie span{
+	margin: 0 0;
+	position: absolute;
+	top: 120px;
+	left: 40px;
+}
+.radio{
+	position: relative;
+	display: inline-block;
+	height: 20px;
+	margin-top: 18px;
+	margin-left:45px;
+}
+.radio input{
+	height: 20px;
+	width: 20px;
+	position: absolute; 
+	top: 0;
+	left: 0;
+	opacity:0; 
+}
+.radio label {
+	position: absolute; 
+	left: 30px;
+	top: 0px;
+	height: 20px;
+	line-height: 20px;
+}
+.radio  label::before{
+	content: '';
+	position: absolute;
+	left: -30px;
+	top: 0px;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin-top: 1px;
+	margin-left: 1px;
+	border: 1px solid#7f4a88;
+	border-radius: 50%;
+	transition: all.3s ease;	
+}
+.radio  label::after{
+	content: '';
+	position: absolute;
+	left: -30px;
+	top: 0px;
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	margin-top: 7px;
+	margin-left: 7px;
+	border-radius: 50%;
+	transition: all.3s ease;
+}
+.radio input[type='radio']:checked +label:before {
+	background:#7f4a88;
+}
+.radio input[type='radio']:checked +label:after{
+	background:#fff;
+}
